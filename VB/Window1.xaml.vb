@@ -8,6 +8,7 @@ Namespace DXChartsTooltips
 
 	Partial Public Class Window1
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
@@ -18,8 +19,7 @@ Namespace DXChartsTooltips
 			If hitInfo IsNot Nothing AndAlso hitInfo.SeriesPoint IsNot Nothing Then
 				Dim point As SeriesPoint = hitInfo.SeriesPoint
 
-				tooltip_text.Text = String.Format("Series = {0}" & Constants.vbLf & "Argument = {1}" & _
-					Constants.vbLf & "Value = {2}", point.Series.DisplayName, point.Argument, point.Value)
+				tooltip_text.Text = String.Format("Series = {0}" & vbLf & "Argument = {1}" & vbLf & "Value = {2}", point.Series.DisplayName, point.Argument, point.Value)
 				tooltip1.Placement = PlacementMode.Mouse
 
 				tooltip1.IsOpen = True
