@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# How to display custom tooltips over the data point currently hovered by the mouse pointer
+# Chart for WPF - Display custom tooltips over the data point currently hovered by the mouse pointer
 
 This example displays custom information for every data point from the underlying datasource in a tooltip.
 
